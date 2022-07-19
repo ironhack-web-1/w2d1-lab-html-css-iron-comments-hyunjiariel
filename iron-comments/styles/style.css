@@ -2,10 +2,61 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
+    width: 100vw; 
+    background-color: rgb(25, 33, 41);   
 
 }
 
 #form-container {
     margin: auto;
+    width: 250px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(255,255,255);
+    background-color: rgb(25, 33, 41);
+    
+    border: 2px solid rgb(67, 163, 230);
+    padding: 2% 2% 2% 2%;
+    margin-bottom: 2% ;
+   
+   
+    
+
+}
+
+#name {
+width: 80%;
+border: 1px solid rgb(67, 163, 230);
+margin-bottom: 2% ;
+}
+
+#email {
+    width: 80%;
+    border: 1px solid rgb(67, 163, 230);
+    margin-bottom: 2% ;
+    }
+
+#comment{
+width:60%;
+border: 1px solid rgb(67, 163, 230);
+padding: 10% 10% 10% 10%;
+margin-bottom: 2% ;
+     }
+
+
+.receive-email {
+    font-style: italic ;
+    font-weight: bold ;
+    font-size: 18px;
+    margin-bottom: 2% ;
+}
+
+#submit {
+    border: rgb(67, 163, 230);
+    border-radius: 10px;
+    background-color: rgb(67, 163, 230);
+    color: rgb(255,255,255);
+    padding: 2% 2% ;
+    font-size:14px;
+    
 }
